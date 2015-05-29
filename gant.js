@@ -180,7 +180,6 @@ class Player {
 
   level8(w) {
   	var feelSpace = w.feel(direction);
-  	var glance = w.look(direction);
 
   	var clearShot = function(w) {
   		var glance = w.look(direction);
@@ -236,7 +235,6 @@ class Player {
 
   level9(w) {
   	var feelSpace = w.feel(direction);
-  	var glance = w.look(direction);
 
   	var safe = function(w) {
   		return (w.health() >= lastHealth);
